@@ -171,23 +171,23 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   const [collapsed, setCollapsed] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [mounted, setMounted] = useState(false)
-  const { isAuthenticated } = useUserStore()
+  const { isAuthenticated, loginAsAdmin } = useUserStore()
   const router = useRouter()
   const pathname = usePathname()
 
   useEffect(() => {
     setMounted(true)
-    // Collapse on small screens initially
     if (window.innerWidth < 1024) {
       setCollapsed(true)
     }
   }, [])
 
+  // Auto-login as demo admin — no redirect needed, anyone can view the admin panel
   useEffect(() => {
     if (mounted && !isAuthenticated) {
-      router.push('/account/login')
+      loginAsAdmin()
     }
-  }, [mounted, isAuthenticated, router])
+  }, [mounted, isAuthenticated, loginAsAdmin])
 
   if (!mounted || !isAuthenticated) {
     return (

@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { ShoppingCart, Search, Menu, ChevronDown, Home, Package, Info, Phone, HelpCircle, BookOpen, User, LogOut } from 'lucide-react'
+import { ShoppingCart, Search, Menu, ChevronDown, Home, Package, Info, Phone, HelpCircle, BookOpen, User, LogOut, LayoutDashboard } from 'lucide-react'
 import { useCartStore } from '@/stores/cartStore'
 import { useUserStore } from '@/stores/userStore'
 import { Button } from '@/components/ui/button'
@@ -84,6 +84,13 @@ export function Header() {
                 ))}
               </DropdownMenuContent>
             </DropdownMenu>
+            <Link
+              href="/admin"
+              className="flex items-center gap-1.5 rounded-md bg-primary px-3 py-1.5 text-xs font-semibold text-primary-foreground transition-opacity hover:opacity-90"
+            >
+              <LayoutDashboard className="h-3.5 w-3.5" />
+              Admin Demo
+            </Link>
           </nav>
 
           {/* Right actions */}
@@ -188,6 +195,15 @@ export function Header() {
                       {label}
                     </Link>
                   ))}
+                  <div className="h-px bg-border my-2" />
+                  <Link
+                    href="/admin"
+                    className="flex items-center gap-3 px-3 py-2.5 rounded-md bg-primary/10 hover:bg-primary/20 transition-colors text-sm font-semibold text-primary"
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    <LayoutDashboard className="h-4 w-4" />
+                    Admin Demo Panel
+                  </Link>
                   {!isAuthenticated && (
                     <>
                       <div className="h-px bg-border my-2" />

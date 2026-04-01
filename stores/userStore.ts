@@ -7,6 +7,7 @@ interface UserStore {
   isAuthenticated: boolean
 
   login: (email: string, password: string) => Promise<void>
+  loginAsAdmin: () => void
   register: (name: string, email: string, password: string) => Promise<void>
   logout: () => void
   updateProfile: (data: Partial<Pick<User, "name" | "email">>) => void
@@ -37,6 +38,20 @@ export const useUserStore = create<UserStore>()(
     (set, get) => ({
       user: null,
       isAuthenticated: false,
+
+      loginAsAdmin: () => {
+        const adminUser: User = {
+          id: "admin-demo",
+          name: "Admin Demo",
+          email: "admin@luxe-demo.com",
+          avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=AdminDemo",
+          role: "admin",
+          wishlist: [],
+          addresses: [],
+          createdAt: new Date().toISOString(),
+        }
+        set({ user: adminUser, isAuthenticated: true })
+      },
 
       login: async (email, password) => {
         if (!email.trim() || !password.trim()) {
