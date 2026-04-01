@@ -14,7 +14,7 @@ At the top of our list sits the new generation of ultra-thin laptops with OLED d
 Wearables are having a pivotal moment in 2026. The gap between consumer fitness trackers and medical-grade monitoring equipment has narrowed dramatically. The best smartwatches now offer ECG readings, blood oxygen monitoring, and continuous stress tracking that have been independently validated against clinical instruments. For anyone managing a chronic condition or simply wanting a closer relationship with their health data, this category has moved from novelty to necessity.
 
 Rounding out our picks are several home technology products that prove smart home gear doesn't have to be complicated. The best digital photo frames have transformed into sophisticated gallery displays that auto-adjust brightness to match room lighting and pull content from every major cloud service. Active studio monitor speakers have come down in price while going up in quality, bringing genuinely accurate sound reproduction to home setups that would have required five times the budget just three years ago. The common thread through all ten picks: technology that gets out of your way and quietly makes your day better.`,
-    featuredImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80",
+    featuredImage: "/images/photo-1518770660439-4636190af475-1200.jpg",
     author: {
       name: "Jordan Hayes",
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=JordanHayes",
@@ -38,7 +38,7 @@ The foundation of any great summer wardrobe is a collection of well-made basics 
 From there, think about a single statement outerwear piece even in summer — a light, packable jacket in a water-resistant fabric covers you for unpredictable weather while doubling as a layer on air-conditioned trains and offices. Choose a color that works with everything in your existing wardrobe rather than something that only coordinates with one outfit. The single-use garment is the enemy of a truly versatile capsule.
 
 Accessories do the heavy lifting of making basic outfits feel individual. A pair of quality polarized sunglasses, a wallet that ages beautifully rather than looking worn-out, and one clean-lined watch can elevate even the simplest T-shirt-and-trouser combination into something that looks put-together. The philosophy is simple: buy things built to last, choose shapes and colors that don't date quickly, and give yourself less to think about getting dressed in the morning.`,
-    featuredImage: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=1200&q=80",
+    featuredImage: "/images/photo-1521572163474-6864f9cf17ab-1200.jpg",
     author: {
       name: "Claire Beaumont",
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=ClaireBeaumont",
@@ -62,7 +62,7 @@ Start with the fundamentals: your chair and your monitor position. The single bi
 Lighting is the second most overlooked element of a productive workspace. Natural light is ideal — position your desk perpendicular to a window so you get the benefit of daylight without the glare on your screen. For evening work, avoid relying solely on overhead lighting; a desk lamp positioned to your non-dominant side provides task lighting without harsh shadows. Warm, indirect light is less fatiguing over long sessions than the cool overhead fluorescents common in office environments.
 
 Organization and aesthetics are the final layer. A cluttered desk creates cognitive load even when you're not consciously thinking about it — every unresolved item in your visual field competes for attention. Invest in smart storage solutions and keep only the things you use daily on your desk surface. On the aesthetics side, a few considered items — a quality plant, a piece of art, an attractive shelf system — aren't frivolous additions. Research consistently shows that pleasant environments improve mood, which in turn improves focus and creativity. The best home offices look like spaces you'd want to spend time in even if you didn't have to.`,
-    featuredImage: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1200&q=80",
+    featuredImage: "/images/photo-1496181133206-80ce9b88a853-1200.jpg",
     author: {
       name: "Michael Torres",
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=MichaelTorres",
@@ -86,7 +86,7 @@ The concept of cost-per-use is a useful framework for thinking about purchases d
 The environmental case is equally compelling. Well-made products are typically made with better materials by more skilled workers in more ethical conditions. They last longer, reducing the frequency of replacement. Many can be repaired rather than discarded. Leather goods can be resoled or reconditioned. Merino wool holds up to machine washing for years without degrading. Solid bamboo furniture outlasts particleboard alternatives by decades. Every item you buy once rather than three times represents real resources not extracted, real emissions not generated.
 
 The shift requires changing how you think about purchases. Instead of asking "What's the cheapest option?", ask "What's the best option within a reasonable budget, and how long will it last?" Give yourself a waiting period before non-essential purchases — most impulse buys look less compelling after 48 hours. Read reviews from long-term owners rather than just first-impression write-ups. And when you do find something genuinely excellent, buy it with confidence, use it constantly, and resist the urge to upgrade it the moment something newer arrives.`,
-    featuredImage: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1200&q=80",
+    featuredImage: "/images/photo-1555041469-a586c61ea9bc-1200.jpg",
     author: {
       name: "Sophie Andersen",
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=SophieAndersen",
@@ -110,7 +110,7 @@ Espresso is essentially a game of controlling four things: grind size, dose (how
 Once you have your grinder dialled in for consistent grind size, the process becomes iterative refinement. Start with a 1:2 brew ratio (18g of coffee in, 36g of espresso out) and a 27-second extraction time. If your shot is sour or under-extracted, grind finer. If it's bitter or astringent, grind coarser. Take notes and change one variable at a time. A kitchen scale accurate to 0.1g is invaluable here — attempting to dial in espresso by eyeball is an exercise in frustration.
 
 Milk drinks require a separate skill: steam wand technique. The goal is microfoam — milk heated to around 65°C with fine, velvety bubbles incorporated throughout, not the large, soapy bubbles that come from leaving the wand tip at the surface. Keep the tip just below the surface and angle the pitcher to create a vortex. Pour the steamed milk into your espresso in a slow, controlled stream and you'll find latte art starts to happen almost by accident. The satisfaction of making a genuinely café-quality drink in your own kitchen is, in our experience, completely worth the learning curve.`,
-    featuredImage: "https://images.unsplash.com/photo-1510127034890-ba27f445630e?w=1200&q=80",
+    featuredImage: "/images/photo-1484154218962-a197022b5858-1200.jpg",
     author: {
       name: "Marco Pellegrini",
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=MarcoPellegrini",
@@ -134,7 +134,7 @@ The first thing to understand about trails is that pace becomes irrelevant. Roug
 Gear requirements are minimal but specific. Trail running shoes with lug soles provide grip on loose and wet surfaces that road shoes simply can't match — trying to trail run in road shoes on a muddy path is both uncomfortable and potentially dangerous. A hydration vest or handheld bottle becomes important once you're going beyond an hour, since trails rarely have water fountains. Trekking poles are optional but genuinely useful on steep ascents and descents, reducing the load on your quads significantly. Beyond that, the same technical running clothing you already own will serve you perfectly well.
 
 Start on well-maintained trails with modest elevation. The goal for your first few outings is to get comfortable with varied terrain, practice looking a few meters ahead of your feet rather than at the ground immediately in front of you (the key skill for efficient trail movement), and enjoy the experience of running in nature. The fitness gains will come — trails build strength, balance, and proprioception in ways that road running simply doesn't. But the main reason people get hooked on trail running is simpler than any of that: it's just a really wonderful way to spend a morning.`,
-    featuredImage: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&q=80",
+    featuredImage: "/images/photo-1571019613454-1cb2f99b2d8b-1200.jpg",
     author: {
       name: "Nina Schreiber",
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=NinaSchreiber",
@@ -158,7 +158,7 @@ Sleep cycles through four stages: three phases of non-REM sleep (light, deeper, 
 The environment you sleep in has a profound impact on sleep quality. Core body temperature drops during sleep, and a cooler room (roughly 65–68°F / 18–20°C) accelerates this process and supports deeper sleep stages. Light — especially blue-spectrum light — suppresses melatonin production; blackout curtains or a sleep mask create the darkness that signals to your brain that it's time to sleep. Noise, even at volumes that don't wake you fully, can fragment sleep architecture, moving you back into lighter stages without your awareness.
 
 Weighted blankets have emerged from the margins of occupational therapy into mainstream sleep culture for good reason. The deep pressure stimulation they provide activates the parasympathetic nervous system — essentially your "rest and digest" mode — reducing cortisol and heart rate. Multiple peer-reviewed studies have found improvements in subjective sleep quality, time to fall asleep, and anxiety levels among users. For many people, particularly those who find their minds racing at bedtime, the physical weight provides a grounding effect that sedatives can't quite replicate.`,
-    featuredImage: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1200&q=80",
+    featuredImage: "/images/photo-1555041469-a586c61ea9bc-1200.jpg",
     author: {
       name: "Dr. Amara Cole",
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=AmaraCole",
@@ -182,7 +182,7 @@ A more practical framework starts with the hierarchy of choices: the most sustai
 When new purchases are genuinely needed, several principles help navigate an overwhelming market. Natural fibers (wool, cotton, linen, hemp) are generally preferable to synthetics when they're produced without harmful dyeing processes, because they biodegrade without releasing microplastics. Durability and repairability should rank high in your evaluation criteria — a product with a five-year lifespan that can be repaired beats a two-year product made with organic cotton that can't. Certifications matter, but selectively: GOTS (Global Organic Textile Standard) for textiles, FSC (Forest Stewardship Council) for wood products, and Fairtrade for goods sourced from developing regions have meaningful third-party oversight behind them.
 
 Finally, the secondhand market deserves more serious attention than it typically receives from people who think of themselves as "quality shoppers." Heritage leather goods, selvedge denim, solid wood furniture, and many electronics hold up exceptionally well in secondhand condition — and buying them secondhand breaks the link between your consumption and new production entirely. It's also, increasingly, a genuinely enjoyable way to find things with character that mass-market retail simply cannot provide.`,
-    featuredImage: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200&q=80",
+    featuredImage: "/images/photo-1542291026-7eec264c27ff-1200.jpg",
     author: {
       name: "Sophie Andersen",
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=SophieAndersen",
@@ -206,7 +206,7 @@ Start with resistance bands. A quality set of flat-woven bands ranging from ligh
 The next tier up involves free weights. Adjustable dumbbells represent by far the best value in this category: a single pair that adjusts from 5 to 52.5 lbs replaces a 15-set rack while taking up less space than two shoeboxes. The cost is higher than fixed-weight dumbbells of the same weight range, but the space efficiency is transformative for home environments. Add a pull-up bar (either doorframe-mounted or freestanding), and you've covered pushing, pulling, hinging, squatting, and carrying movements — the five fundamental categories of human movement — with equipment that costs less than three months of a commercial gym membership.
 
 For conditioning work, nothing beats a jump rope for cost, portability, and caloric impact. A quality leather or steel cable rope with weighted handles costs under $30 and burns calories at a rate comparable to running. Bodyweight training — push-up variations, lunges, single-leg exercises, core work — provides almost limitless progressions without any equipment at all. The best home gym isn't the one with the most gear; it's the one you actually use consistently because it's accessible, simple, and matched to your actual training needs.`,
-    featuredImage: "https://images.unsplash.com/photo-1535131749619-0be7aec49f5d?w=1200&q=80",
+    featuredImage: "/images/photo-1576678927484-cc907957088c-1200.jpg",
     author: {
       name: "Chris Donovan",
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=ChrisDonovan",
